@@ -1,0 +1,65 @@
+#!/bin/sh
+# Copyright 2013 Nick White <nick.white@durham.ac.uk>
+#
+# Permission to use, copy, modify, and/or distribute this software for any
+# purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
+
+# tessaccuracy  /home/ubuntu/OCR_GS_Data/ara/ground-truth /home/ubuntu/tesstrain/araKraken.traineddata Buldan
+
+usage="$0 [-w] imgdir traineddata prefix
+
+  -w           test word accuracy, rather than character accuracy
+  imgdir       directory containing .png images with accompanying
+               .gt.txt text files
+  traineddata  .traineddata file
+  prefix      for selecting a subset of files"
+
+if test "$1" = "-w"; then
+	accprog=wordacc
+	shift
+else
+	accprog=accuracy
+fi
+test $# -ne 3 && echo "Usage: $usage" && exit 1
+imgdir="$1"
+training="$2"
+prefix="$3"
+
+rm -rf $prefix-reports
+mkdir -p $prefix-reports
+
+# Copy training to temporary directory and point Tesseract to it
+t=`mktemp -d`
+tessdatadir="$t"
+lang=`basename "$training" | awk -F . '{print $1}'`
+# echo "$training"
+cp "$training" "$t/$lang.traineddata"
+# tesseract seems to complain without a eng.traineddata file available
+ln -s "$t/$lang.traineddata" "$t/eng.traineddata"
+
+cnt=0
+echo -n "" > ocr-$prefix.txt 
+echo -n "" > gt-$prefix.txt
+for i in `find "$imgdir" -name "*$prefix*.png" | sort`; do
+    cnt=`expr $cnt + 1`
+	b=`basename "$i" .png`
+	name=$(echo "$i" | sed -e 's/\.[^.]*$//') 
+	printf "%s: " "$b"
+	err=`OMP_THREAD_LIMIT=1 tesseract "$i" "$t/$b" --tessdata-dir $tessdatadir --oem 1 --psm 13 -l $lang -c page_separator=''  2>&1`
+	test $? -ne 0 && continue
+    cd $prefix-reports
+        ocrevalutf8 $accprog "$name.gt.txt" "$t/$b.txt" > "$b.rpt"
+    cd ..
+    cat "$t/$b".txt >> "ocr-$prefix.txt"
+    cat "${i%.*}".gt.txt  >> "gt-$prefix.txt"
+    echo "" >> "gt-$prefix.txt"
+done
+
+java -cp ~/ocrevaluation/ocrevaluation.jar  eu.digitisation.Main  -gt "gt-$prefix.txt" -ocr "ocr-$prefix.txt" -e UTF-8   -o "eval-$prefix-$lang.html" 
+
+#accsum $(ls  Buldan-reports/*) > Buldan-accsum_report
+#ocrevalutf8 accsum $(ls  Buldan-reports/*) > Buldan-ocrevalutf8_accsum_report
+#ocrevalutf8 accuracy gt-Buldan.txt ocr-Buldan.txt > Buldan-ocrevalutf8_accuracy_report
+
+rm -rf "$t"
