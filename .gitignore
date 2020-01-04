@@ -7,3 +7,6 @@
 01*Amiri*.sh
 02*Amiri*.sh
 fixspace.sed
+data/radical-stroke.txt
+data/AmiriGS5/checkpoints
+data/AmiriGS5/checkpoints/*

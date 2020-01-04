@@ -26,9 +26,9 @@ cat \
 /home/ubuntu/tesstrain-arabic-GS/data/all-book_IbnQutayba.Adab-lstmf \
 /home/ubuntu/tesstrain-arabic-GS/data/all-AmiriSynthetic-7_final_a-lstmf \
 /home/ubuntu/tesstrain-arabic-GS/data/all-AmiriSynthetic-7_final_a_200-lstmf \
-> all-$MODEL-lstmf
+> /tmp/all-$MODEL-lstmf
 
-python3 /home/ubuntu/tesstrain/shuffle.py 1 < all-$MODEL-lstmf > all-lstmf
+python3 /home/ubuntu/tesstrain/shuffle.py 1 < /tmp/all-$MODEL-lstmf > all-lstmf
 
 # use the normalized AWN2AEN fixed reversed text 
 # also adds books only used for eval - book_Yacqubi.Tarikh and book_Jahiz.Hayawan
@@ -41,7 +41,7 @@ for f in $SCRIPTPATH/OCR_GS_Data/ara/book_IbnQutayba.Adab/*.gt.txt; do (cat "${f
 cat  /home/ubuntu/langdata_save_lstm/ara/ara.minusnew.training_text  >> all-gt 
 for f in $SCRIPTPATH/OCR_GS_Data/ara/book_Yacqubi.Tarikh/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
 for f in $SCRIPTPATH/OCR_GS_Data/ara/book_Jahiz.Hayawan/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
-sed -i -e 's/O//g' all-gt
+sed -i -e 's/[a-zA-Z]//g' all-gt
 
 cd ../..
 
