@@ -1,5 +1,4 @@
 #!/bin/sh
-# nohup bash 9-run_tess_tests.sh araAmiri5 > araAmiri5Minus_fast-reports.txt & 
 # nohup bash 9-run_tess_tests.sh araAmiriGS5 > araAmiriGS5Minus_fast-reports.txt & 
 
 SCRIPTPATH=`pwd`

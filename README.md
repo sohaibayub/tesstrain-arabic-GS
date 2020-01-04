@@ -27,21 +27,12 @@ Wordstr format .box and .lstmf files were created using bash scripts outside of 
 #### Synthetic training data
 
 Synthetic training data in Amiri font was also used to generalize the model,
-with images at 300 and 200 dpi generated using `text2image`, and
-wordstrbox files generated using `generate_wordstr_box.py` with `rtl` option.
+with images at 300 and 200 dpi generated using `text2image`.
 
 * [OCR_GS_Data/ara/AmiriSynthetic/7_final_a](OCR_GS_Data/ara/AmiriSynthetic/7_final_a)
 * [OCR_GS_Data/ara/AmiriSynthetic/7_final_a_200](OCR_GS_Data/ara/AmiriSynthetic/7_final_a_200)
 
 #### araAmiriGS5Minus OCR evaluation reports  (Integer version trained till ~1%  CER)
-
-###### on same books as training data
-
-* [OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan-reports-araAmiriGS5Minus_fast](OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan-reports-araAmiriGS5Minus_fast)
-* [OCR_GS_Data/ara/lq_IbnJawzi.Muntazam-reports-araAmiriGS5Minus_fast](OCR_GS_Data/ara/lq_IbnJawzi.Muntazam-reports-araAmiriGS5Minus_fast)
-* [OCR_GS_Data/ara/lq_Dhahabi.Tarikh-reports-araAmiriGS5Minus_fast](OCR_GS_Data/ara/lq_Dhahabi.Tarikh-reports-araAmiriGS5Minus_fast)
-* [OCR_GS_Data/ara/book_IbnQutayba.Adab-reports-araAmiriGS5Minus_fast](OCR_GS_Data/ara/book_IbnQutayba.Adab-reports-araAmiriGS5Minus_fast)
-* [OCR_GS_Data/ara/book_IbnAthir.Kamil-reports-araAmiriGS5Minus_fast](OCR_GS_Data/ara/book_IbnAthir.Kamil-reports-araAmiriGS5Minus_fast)
 
 ###### on books different from training data
 

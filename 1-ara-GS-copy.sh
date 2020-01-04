@@ -11,12 +11,4 @@ cd $book
 	 find 7_final_b_200 -name "*.png" | sed 'h;y/\//-/;H;g;s/\n/ /g;s/^/cp  -v /' | sh
 cd ..
 done
-###cd  ~/OCR_GS_Data/ara
-###for book in book_IbnFaqihHamadhani.Buldan  lq_IbnJawzi.Muntazam   lq_Dhahabi.Tarikh  book_IbnQutayba.Adab  book_IbnAthir.Kamil  book_Yacqubi.Tarikh  book_Jahiz.Hayawan ; do
-###cd $book 
-###	 find ./ -type f -name "*.gt.txt" -exec cp -f  {} ~/tesstrain-arabic-GS/OCR_GS_Data/ara/$book/ \;
-###	 find ./ -type f -name "*.png" -exec cp -f  {} ~/tesstrain-arabic-GS/OCR_GS_Data/ara/$book/ \;
-###cd ..
-###done
-cd ../..
  
