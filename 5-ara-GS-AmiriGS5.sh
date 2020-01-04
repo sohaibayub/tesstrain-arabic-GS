@@ -1,5 +1,5 @@
 #!/bin/bash
-# nohup bash araAmiriGS5.sh > Amiri5.log & 
+# nohup bash 5-ara-GS-AmiriGS5.sh > 5-ara-GS-AmiriGS5.log & 
 
 export PYTHONIOENCODING=utf8
 ulimit -s 65536
@@ -30,14 +30,17 @@ cat \
 
 python3 /home/ubuntu/tesstrain/shuffle.py 1 < all-$MODEL-lstmf > all-lstmf
 
-# use the normalized AWN2AEN fixed reversed text (not original .gt.txt) - .text 
+# use the normalized AWN2AEN fixed reversed text 
+# also adds books only used for eval - book_Yacqubi.Tarikh and book_Jahiz.Hayawan
 echo "" > all-gt
-for f in $SCRIPTPATH/OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan/*.text; do (cat "${f}"; echo) >> all-gt; done
-for f in $SCRIPTPATH/OCR_GS_Data/ara/lq_IbnJawzi.Muntazam/*.text; do (cat "${f}"; echo) >> all-gt; done
-for f in $SCRIPTPATH/OCR_GS_Data/ara/lq_Dhahabi.Tarikh/*.text; do (cat "${f}"; echo) >> all-gt; done
-for f in $SCRIPTPATH/OCR_GS_Data/ara/book_IbnAthir.Kamil/*.text; do (cat "${f}"; echo) >> all-gt; done
-for f in $SCRIPTPATH/OCR_GS_Data/ara/book_IbnQutayba.Adab/*.text; do (cat "${f}"; echo) >> all-gt; done
+for f in $SCRIPTPATH/OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
+for f in $SCRIPTPATH/OCR_GS_Data/ara/lq_IbnJawzi.Muntazam/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
+for f in $SCRIPTPATH/OCR_GS_Data/ara/lq_Dhahabi.Tarikh/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
+for f in $SCRIPTPATH/OCR_GS_Data/ara/book_IbnAthir.Kamil/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
+for f in $SCRIPTPATH/OCR_GS_Data/ara/book_IbnQutayba.Adab/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
 cat  /home/ubuntu/langdata_save_lstm/ara/ara.minusnew.training_text  >> all-gt 
+for f in $SCRIPTPATH/OCR_GS_Data/ara/book_Yacqubi.Tarikh/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
+for f in $SCRIPTPATH/OCR_GS_Data/ara/book_Jahiz.Hayawan/*.gt.txt; do (cat "${f}"; echo) >> all-gt; done
 sed -i -e 's/O//g' all-gt
 
 cd ../..

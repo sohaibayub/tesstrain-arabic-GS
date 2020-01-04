@@ -1,0 +1,9 @@
+*.log
+*/*/test
+0-araBuldan5.sh
+0-setup.sh
+0-test-ocr.sh
+0-test.sh
+01*Amiri*.sh
+02*Amiri*.sh
+fixspace.sed

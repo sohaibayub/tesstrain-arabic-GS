@@ -1,5 +1,5 @@
 #!/bin/sh
-# nohup bash 9-run_tess_tests.sh araAmiriGS5 > araAmiriGS5Minus_fast-reports.txt & 
+# nohup bash 9-run_tess_tests.sh AmiriGS5 > AmiriGS5Minus_fast-reports.txt & 
 
 SCRIPTPATH=`pwd`
 MODEL=$1
@@ -19,7 +19,7 @@ MINUSMODEL=${MODEL}Minus_fast
  	--model_output data/$MINUSMODEL.traineddata
 
 cd  $SCRIPTPATH/OCR_GS_Data/ara
-for BOOK in  book_IbnFaqihHamadhani.Buldan  lq_IbnJawzi.Muntazam   lq_Dhahabi.Tarikh  book_IbnQutayba.Adab  book_IbnAthir.Kamil book_Yacqubi.Tarikh  book_Jahiz.Hayawan ; do
+for BOOK in book_Yacqubi.Tarikh  book_Jahiz.Hayawan  book_IbnFaqihHamadhani.Buldan  lq_IbnJawzi.Muntazam   lq_Dhahabi.Tarikh  book_IbnQutayba.Adab  book_IbnAthir.Kamil  ; do
     cd $BOOK
     REPORTSPATH=../$BOOK-reports-$MINUSMODEL
     rm -rf $REPORTSPATH
