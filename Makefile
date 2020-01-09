@@ -79,7 +79,7 @@ else
 ifeq ($(LANG_TYPE),RTL)
 	NORM_MODE =3
 	RECODER =--pass_through_recoder --lang_is_rtl
-	GENERATE_BOX_SCRIPT =generate_wordstr_box_rtl.py
+	GENERATE_BOX_SCRIPT =generate_wordstr_box.py --rtl
 else
 	NORM_MODE =1
 	RECODER=
@@ -88,7 +88,7 @@ endif
 endif
 
 # Page segmentation mode. Default: $(PSM)
-PSM = 6
+PSM = 13
 
 # Random seed for shuffling of the training data. Default: $(RANDOM_SEED)
 RANDOM_SEED := 0
@@ -189,19 +189,20 @@ $(OUTPUT_DIR)/unicharset: $(ALL_GT)
 	unicharset_extractor --output_unicharset "$@" --norm_mode $(NORM_MODE)  "$(ALL_GT)"
 endif
 
-$(ALL_GT): $(patsubst %.tif,%.gt.txt,$(shell find $(GROUND_TRUTH_DIR) -name '*.tif'))
-	@mkdir -p $(OUTPUT_DIR)
-	find $(GROUND_TRUTH_DIR) -name '*.gt.txt' | xargs cat  > "$@"
-
-%.box: %.tif %.gt.txt
-	PYTHONIOENCODING=utf-8 python3 $(GENERATE_BOX_SCRIPT) -i "$*.tif" -t "$*.gt.txt" > "$@"
-
-$(ALL_LSTMF):  $(patsubst %.tif,%.lstmf,$(shell find $(GROUND_TRUTH_DIR) -name '*.tif'))
-	@mkdir -p $(OUTPUT_DIR)
-	find $(GROUND_TRUTH_DIR) -name '*.lstmf' | python3 shuffle.py $(RANDOM_SEED) > "$@"
-
-%.lstmf: %.box
-	tesseract $*.tif $* --psm $(PSM) lstm.train
+###
+###$(ALL_GT): $(patsubst %.tif,%.gt.txt,$(shell find $(GROUND_TRUTH_DIR) -name '*.tif'))
+###	@mkdir -p $(OUTPUT_DIR)
+###	find $(GROUND_TRUTH_DIR) -name '*.gt.txt' | xargs cat  > "$@"
+###
+###%.box: %.tif %.gt.txt
+###	PYTHONIOENCODING=utf-8 python3 $(GENERATE_BOX_SCRIPT) -i "$*.tif" -t "$*.gt.txt" > "$@"
+###
+###$(ALL_LSTMF):  $(patsubst %.tif,%.lstmf,$(shell find $(GROUND_TRUTH_DIR) -name '*.tif'))
+###	@mkdir -p $(OUTPUT_DIR)
+###	find $(GROUND_TRUTH_DIR) -name '*.lstmf' | python3 shuffle.py $(RANDOM_SEED) > "$@"
+###
+###%.lstmf: %.box
+###	tesseract $*.tif $* --psm $(PSM) lstm.train
 
 # Create best and fast .traineddata files from each .checkpoint file
 CHECKPOINT_FILES := $(wildcard $(OUTPUT_DIR)/checkpoints/$(MODEL_NAME)*.checkpoint)

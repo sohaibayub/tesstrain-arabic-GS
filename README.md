@@ -41,23 +41,12 @@ with images at 300 and 200 dpi generated using `text2image`.
 
 ## OpenArabic/Kraken
 
-### OpenArabic/OCR_GS_Data
+### OpenArabic/OCR_GS_Data and OCR evaluation reports
 
-* [OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan](OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan)
-* [OCR_GS_Data/ara/lq_IbnJawzi.Muntazam](OCR_GS_Data/ara/lq_IbnJawzi.Muntazam)
-* [OCR_GS_Data/ara/lq_Dhahabi.Tarikh](OCR_GS_Data/ara/lq_Dhahabi.Tarikh)
-* [OCR_GS_Data/ara/book_IbnQutayba.Adab](OCR_GS_Data/ara/book_IbnQutayba.Adab)
-* [OCR_GS_Data/ara/book_IbnAthir.Kamil](OCR_GS_Data/ara/book_IbnAthir.Kamil)
-* [OCR_GS_Data/ara/book_Yacqubi.Tarikh](OCR_GS_Data/ara/book_Yacqubi.Tarikh)
-* [OCR_GS_Data/ara/book_Jahiz.Hayawan](OCR_GS_Data/ara/book_Jahiz.Hayawan)
-
-### OpenArabic/OCR_GS_Data OCR evaluation reports
-
-* [OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan-reports](OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan-reports)
-* [OCR_GS_Data/ara/lq_IbnJawzi.Muntazam-reports](OCR_GS_Data/ara/lq_IbnJawzi.Muntazam-reports)
-* [OCR_GS_Data/ara/lq_Dhahabi.Tarikh-reports](OCR_GS_Data/ara/lq_Dhahabi.Tarikh-reports)
-* [OCR_GS_Data/ara/book_IbnQutayba.Adab-reports](OCR_GS_Data/ara/book_IbnQutayba.Adab-reports)
-* [OCR_GS_Data/ara/book_IbnAthir.Kamil-reports](OCR_GS_Data/ara/book_IbnAthir.Kamil-reports)
-* [OCR_GS_Data/ara/book_Yacqubi.Tarikh-reports](OCR_GS_Data/ara/book_Yacqubi.Tarikh-reports)
-* [OCR_GS_Data/ara/book_Jahiz.Hayawan-reports](OCR_GS_Data/ara/book_Jahiz.Hayawan-reports)
-* [OCR_GS_Data/ara/bens_reports](OCR_GS_Data/ara/bens_reports)
+* [book_IbnFaqihHamadhani.Buldan](https://github.com/OpenArabic/OCR_GS_Data/tree/master/ara/book_IbnFaqihHamadhani.Buldan)
+* [lq_IbnJawzi.Muntazam](https://github.com/OpenArabic/OCR_GS_Data/tree/master/ara/lq_IbnJawzi.Muntazam
+* [lq_Dhahabi.Tarikh](https://github.com/OpenArabic/OCR_GS_Data/tree/master/ara/lq_Dhahabi.Tarikh)
+* [book_IbnQutayba.Adab](https://github.com/OpenArabic/OCR_GS_Data/tree/master/ara/book_IbnQutayba.Adab)
+* [book_IbnAthir.Kamil](https://github.com/OpenArabic/OCR_GS_Data/tree/master/ara/book_IbnAthir.Kamil)
+* [book_Yacqubi.Tarikh](https://github.com/OpenArabic/OCR_GS_Data/tree/master/ara/book_Yacqubi.Tarikh)
+* [book_Jahiz.Hayawan](https://github.com/OpenArabic/OCR_GS_Data/tree/master/ara/book_Jahiz.Hayawan)
