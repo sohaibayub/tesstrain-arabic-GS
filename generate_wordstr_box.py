@@ -49,7 +49,6 @@ with io.open(args.txt, "r", encoding='utf-8') as f:
 for line in lines:
     line = unicodedata.normalize('NFC', line.strip())
     if args.rtl:
-#      line = line.translate(str.maketrans("()[]{}»«><", ")(][}{«»<>"))
         line = bidi.algorithm.get_display(line)
     if line:
         print("WordStr 0 0 %d %d 0 #%s" % (width, height, line))

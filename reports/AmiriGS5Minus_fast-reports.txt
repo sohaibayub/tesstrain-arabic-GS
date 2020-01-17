@@ -1,0 +1,758 @@
+Loaded file /home/ubuntu/tesstrain-arabic-GS/data/AmiriGS5/checkpoints/AmiriGS5Minus_checkpoint, unpacking...
+Loaded file /home/ubuntu/tesstrain-arabic-GS/data/AmiriGS5/checkpoints/AmiriGS5Minus_checkpoint, unpacking...
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Yacqubi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30689   Characters
+    1119   Errors
+   96.35%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.35%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     182      525      412     1119   Unmarked
+     182      525      412     1119   Total
+
+   Count   Missed   %Right
+    6670       85    98.73   ASCII Spacing Characters
+     264        3    98.86   ASCII Special Symbols
+   23752      617    97.40   Basic Arabic
+       3        2    33.33   Arabic Extended
+   30689      707    97.70   Total
+
+  Errors   Marked   Correct-Generated
+      84        0   {ا}-{أ}
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Yacqubi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   33968   Characters
+    1183   Errors
+   96.52%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.52%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     180      580      423     1183   Unmarked
+     180      580      423     1183   Total
+
+   Count   Missed   %Right
+    7344       95    98.71   ASCII Spacing Characters
+     314        6    98.09   ASCII Special Symbols
+   26304      656    97.51   Basic Arabic
+       6        3    50.00   Arabic Extended
+   33968      760    97.76   Total
+
+  Errors   Marked   Correct-Generated
+      83        0   {ا}-{أ}
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Yacqubi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30689   Characters
+    1119   Errors
+   96.35%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.35%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     182      525      412     1119   Unmarked
+     182      525      412     1119   Total
+
+   Count   Missed   %Right
+    6670       85    98.73   ASCII Spacing Characters
+     264        3    98.86   ASCII Special Symbols
+   23752      617    97.40   Basic Arabic
+       3        2    33.33   Arabic Extended
+   30689      707    97.70   Total
+
+  Errors   Marked   Correct-Generated
+      84        0   {ا}-{أ}
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Yacqubi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   33968   Characters
+    1183   Errors
+   96.52%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   96.52%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     180      580      423     1183   Unmarked
+     180      580      423     1183   Total
+
+   Count   Missed   %Right
+    7344       95    98.71   ASCII Spacing Characters
+     314        6    98.09   ASCII Special Symbols
+   26304      656    97.51   Basic Arabic
+       6        3    50.00   Arabic Extended
+   33968      760    97.76   Total
+
+  Errors   Marked   Correct-Generated
+      83        0   {ا}-{أ}
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Jahiz.Hayawan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26825   Characters
+    1724   Errors
+   93.57%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.57%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     242     1000      482     1724   Unmarked
+     242     1000      482     1724   Total
+
+   Count   Missed   %Right
+    5551       95    98.29   ASCII Spacing Characters
+     488      239    51.02   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668      877    95.76   Basic Arabic
+     101       14    86.14   Arabic Extended
+   26825     1242    95.37   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Jahiz.Hayawan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30769   Characters
+    2028   Errors
+   93.41%  Accuracy
+
+       1   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.42%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        1        1        2   Marked
+     320     1099      607     2026   Unmarked
+     320     1100      608     2028   Total
+
+   Count   Missed   %Right
+    6524      123    98.11   ASCII Spacing Characters
+     663      341    48.57   ASCII Special Symbols
+       4        4     0.00   Latin1 Special Symbols
+   23411      926    96.04   Basic Arabic
+     167       26    84.43   Arabic Extended
+   30769     1420    95.38   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Jahiz.Hayawan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26825   Characters
+    1724   Errors
+   93.57%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.57%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     242     1000      482     1724   Unmarked
+     242     1000      482     1724   Total
+
+   Count   Missed   %Right
+    5551       95    98.29   ASCII Spacing Characters
+     488      239    51.02   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668      877    95.76   Basic Arabic
+     101       14    86.14   Arabic Extended
+   26825     1242    95.37   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_Jahiz.Hayawan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30769   Characters
+    2028   Errors
+   93.41%  Accuracy
+
+       1   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.42%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        1        1        2   Marked
+     320     1099      607     2026   Unmarked
+     320     1100      608     2028   Total
+
+   Count   Missed   %Right
+    6524      123    98.11   ASCII Spacing Characters
+     663      341    48.57   ASCII Special Symbols
+       4        4     0.00   Latin1 Special Symbols
+   23411      926    96.04   Basic Arabic
+     167       26    84.43   Arabic Extended
+   30769     1420    95.38   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   49434   Characters
+     426   Errors
+   99.14%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.14%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      38      179      209      426   Unmarked
+      38      179      209      426   Total
+
+   Count   Missed   %Right
+    9012       22    99.76   ASCII Spacing Characters
+    1033      125    87.90   ASCII Special Symbols
+       7        7     0.00   Latin1 Special Symbols
+   39179       59    99.85   Basic Arabic
+     203        4    98.03   Arabic Extended
+   49434      217    99.56   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   49501   Characters
+     282   Errors
+   99.43%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.43%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      45      133      104      282   Unmarked
+      45      133      104      282   Total
+
+   Count   Missed   %Right
+    9179       18    99.80   ASCII Spacing Characters
+     702       92    86.89   ASCII Special Symbols
+       8        8     0.00   Latin1 Special Symbols
+   39509       60    99.85   Basic Arabic
+     103        0   100.00   Arabic Extended
+   49501      178    99.64   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   41711   Characters
+     361   Errors
+   99.13%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.13%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      33      159      169      361   Unmarked
+      33      159      169      361   Total
+
+   Count   Missed   %Right
+    7564       18    99.76   ASCII Spacing Characters
+     841      110    86.92   ASCII Special Symbols
+       6        6     0.00   Latin1 Special Symbols
+   33142       54    99.84   Basic Arabic
+     158        4    97.47   Arabic Extended
+   41711      192    99.54   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnFaqihHamadhani.Buldan
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   49501   Characters
+     282   Errors
+   99.43%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   99.43%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      45      133      104      282   Unmarked
+      45      133      104      282   Total
+
+   Count   Missed   %Right
+    9179       18    99.80   ASCII Spacing Characters
+     702       92    86.89   ASCII Special Symbols
+       8        8     0.00   Latin1 Special Symbols
+   39509       60    99.85   Basic Arabic
+     103        0   100.00   Arabic Extended
+   49501      178    99.64   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_IbnJawzi.Muntazam
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   29845   Characters
+     750   Errors
+   97.49%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.49%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     116      303      331      750   Unmarked
+     116      303      331      750   Total
+
+   Count   Missed   %Right
+    5681       65    98.86   ASCII Spacing Characters
+     632      228    63.92   ASCII Special Symbols
+       1        1     0.00   ASCII Lowercase Letters
+      14       14     0.00   Latin1 Special Symbols
+   23323       49    99.79   Basic Arabic
+     194       62    68.04   Arabic Extended
+   29845      419    98.60   Total
+
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_IbnJawzi.Muntazam
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   31421   Characters
+     774   Errors
+   97.54%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.54%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     123      369      282      774   Unmarked
+     123      369      282      774   Total
+
+   Count   Missed   %Right
+    5987       88    98.53   ASCII Spacing Characters
+     717      291    59.41   ASCII Special Symbols
+      20       20     0.00   Latin1 Special Symbols
+   24502       50    99.80   Basic Arabic
+     195       43    77.95   Arabic Extended
+   31421      492    98.43   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_IbnJawzi.Muntazam
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   29845   Characters
+     750   Errors
+   97.49%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.49%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     116      303      331      750   Unmarked
+     116      303      331      750   Total
+
+   Count   Missed   %Right
+    5681       65    98.86   ASCII Spacing Characters
+     632      228    63.92   ASCII Special Symbols
+       1        1     0.00   ASCII Lowercase Letters
+      14       14     0.00   Latin1 Special Symbols
+   23323       49    99.79   Basic Arabic
+     194       62    68.04   Arabic Extended
+   29845      419    98.60   Total
+
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_IbnJawzi.Muntazam
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   31421   Characters
+     774   Errors
+   97.54%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.54%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     123      369      282      774   Unmarked
+     123      369      282      774   Total
+
+   Count   Missed   %Right
+    5987       88    98.53   ASCII Spacing Characters
+     717      291    59.41   ASCII Special Symbols
+      20       20     0.00   Latin1 Special Symbols
+   24502       50    99.80   Basic Arabic
+     195       43    77.95   Arabic Extended
+   31421      492    98.43   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_Dhahabi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   28350   Characters
+     638   Errors
+   97.75%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.75%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     135      185      318      638   Unmarked
+     135      185      318      638   Total
+
+   Count   Missed   %Right
+    5287       73    98.62   ASCII Spacing Characters
+     564       62    89.01   ASCII Special Symbols
+      59       59     0.00   Latin1 Special Symbols
+   22229      115    99.48   Basic Arabic
+     211       11    94.79   Arabic Extended
+   28350      320    98.87   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_Dhahabi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26134   Characters
+     599   Errors
+   97.71%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.71%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     112      165      322      599   Unmarked
+     112      165      322      599   Total
+
+   Count   Missed   %Right
+    4888       56    98.85   ASCII Spacing Characters
+     565       86    84.78   ASCII Special Symbols
+      30       30     0.00   Latin1 Special Symbols
+   20426       92    99.55   Basic Arabic
+     225       13    94.22   Arabic Extended
+   26134      277    98.94   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_Dhahabi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   28350   Characters
+     638   Errors
+   97.75%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.75%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     135      185      318      638   Unmarked
+     135      185      318      638   Total
+
+   Count   Missed   %Right
+    5287       73    98.62   ASCII Spacing Characters
+     564       62    89.01   ASCII Special Symbols
+      59       59     0.00   Latin1 Special Symbols
+   22229      115    99.48   Basic Arabic
+     211       11    94.79   Arabic Extended
+   28350      320    98.87   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/lq_Dhahabi.Tarikh
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26134   Characters
+     599   Errors
+   97.71%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   97.71%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     112      165      322      599   Unmarked
+     112      165      322      599   Total
+
+   Count   Missed   %Right
+    4888       56    98.85   ASCII Spacing Characters
+     565       86    84.78   ASCII Special Symbols
+      30       30     0.00   Latin1 Special Symbols
+   20426       92    99.55   Basic Arabic
+     225       13    94.22   Arabic Extended
+   26134      277    98.94   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnQutayba.Adab
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   19844   Characters
+    2003   Errors
+   89.91%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.91%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      56     1538      409     2003   Unmarked
+      56     1538      409     2003   Total
+
+   Count   Missed   %Right
+    4707       39    99.17   ASCII Spacing Characters
+     674      263    60.98   ASCII Special Symbols
+       1        1     0.00   ASCII Uppercase Letters
+    1154     1146     0.69   Latin1 Special Symbols
+   13071      117    99.10   Basic Arabic
+     237       28    88.19   Arabic Extended
+   19844     1594    91.97   Total
+
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnQutayba.Adab
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   21736   Characters
+    1934   Errors
+   91.10%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.10%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      74     1506      354     1934   Unmarked
+      74     1506      354     1934   Total
+
+   Count   Missed   %Right
+    5014       44    99.12   ASCII Spacing Characters
+     688      310    54.94   ASCII Special Symbols
+    1110     1106     0.36   Latin1 Special Symbols
+   14645       98    99.33   Basic Arabic
+     279       22    92.11   Arabic Extended
+   21736     1580    92.73   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnQutayba.Adab
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   19844   Characters
+    2003   Errors
+   89.91%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.91%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      56     1538      409     2003   Unmarked
+      56     1538      409     2003   Total
+
+   Count   Missed   %Right
+    4707       39    99.17   ASCII Spacing Characters
+     674      263    60.98   ASCII Special Symbols
+       1        1     0.00   ASCII Uppercase Letters
+    1154     1146     0.69   Latin1 Special Symbols
+   13071      117    99.10   Basic Arabic
+     237       28    88.19   Arabic Extended
+   19844     1594    91.97   Total
+
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnQutayba.Adab
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   21736   Characters
+    1934   Errors
+   91.10%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.10%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+      74     1506      354     1934   Unmarked
+      74     1506      354     1934   Total
+
+   Count   Missed   %Right
+    5014       44    99.12   ASCII Spacing Characters
+     688      310    54.94   ASCII Special Symbols
+    1110     1106     0.36   Latin1 Special Symbols
+   14645       98    99.33   Basic Arabic
+     279       22    92.11   Arabic Extended
+   21736     1580    92.73   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnAthir.Kamil
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   25664   Characters
+    1774   Errors
+   93.09%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.09%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     803      396      575     1774   Unmarked
+     803      396      575     1774   Total
+
+   Count   Missed   %Right
+    4800      145    96.98   ASCII Spacing Characters
+     588      228    61.22   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20178      798    96.05   Basic Arabic
+      81       11    86.42   Arabic Extended
+   25664     1199    95.33   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnAthir.Kamil
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   31573   Characters
+    1730   Errors
+   94.52%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.52%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+    1044      429      257     1730   Unmarked
+    1044      429      257     1730   Total
+
+   Count   Missed   %Right
+    6042      248    95.90   ASCII Spacing Characters
+     704      280    60.23   ASCII Special Symbols
+   24729      933    96.23   Basic Arabic
+      98       12    87.76   Arabic Extended
+   31573     1473    95.33   Total
+
+  Errors   Marked   Correct-Generated
+     106        0   { }-{}
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnAthir.Kamil
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   25664   Characters
+    1774   Errors
+   93.09%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   93.09%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     803      396      575     1774   Unmarked
+     803      396      575     1774   Total
+
+   Count   Missed   %Right
+    4800      145    96.98   ASCII Spacing Characters
+     588      228    61.22   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20178      798    96.05   Basic Arabic
+      81       11    86.42   Arabic Extended
+   25664     1199    95.33   Total
+
+  Errors   Marked   Correct-Generated
+/home/ubuntu/tesstrain-arabic-GS/OCR_GS_Data/ara/book_IbnAthir.Kamil
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   31573   Characters
+    1730   Errors
+   94.52%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   94.52%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+    1044      429      257     1730   Unmarked
+    1044      429      257     1730   Total
+
+   Count   Missed   %Right
+    6042      248    95.90   ASCII Spacing Characters
+     704      280    60.23   ASCII Special Symbols
+   24729      933    96.23   Basic Arabic
+      98       12    87.76   Arabic Extended
+   31573     1473    95.33   Total
+
+  Errors   Marked   Correct-Generated
+     106        0   { }-{}

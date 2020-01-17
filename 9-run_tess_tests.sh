@@ -1,9 +1,7 @@
 #!/bin/sh
 # nohup bash 9-run_tess_tests.sh AmiriGS5 Minus > reports/AmiriGS5Minus_fast-reports.txt & 
-# nohup bash 9-run_tess_tests.sh kur_araGS7 Minus > reports/kur_araGS7Minus_fast-reports.txt & 
-# nohup bash 9-run_tess_tests.sh kur_araAmiriGS7 Layer > reports/kur_araAmiriGS7Layer_fast-reports.txt & 
+# nohup bash 9-run_tess_tests.sh AmiriGS5 Layer > reports/AmiriGS5Layer_fast-reports.txt & 
 # 
-
 SCRIPTPATH=`pwd`
 LANG=$1
 BUILDTYPE=$2

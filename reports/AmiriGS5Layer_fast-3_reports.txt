@@ -1,0 +1,367 @@
+lstmtraining \
+          --stop_training \
+          --continue_from data/AmiriGS5/checkpoints/AmiriGS5Layer_0.721_245057_848200.checkpoint \
+          --traineddata data/AmiriGS5/AmiriGS5.traineddata \
+          --convert_to_int \
+          --model_output data/AmiriGS5/tessdata_fast/AmiriGS5Layer_0.721_245057_848200.traineddata
+Loaded file data/AmiriGS5/checkpoints/AmiriGS5Layer_0.721_245057_848200.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/AmiriGS5/checkpoints/AmiriGS5Layer_0.768_238947_821900.checkpoint \
+          --traineddata data/AmiriGS5/AmiriGS5.traineddata \
+          --convert_to_int \
+          --model_output data/AmiriGS5/tessdata_fast/AmiriGS5Layer_0.768_238947_821900.traineddata
+Loaded file data/AmiriGS5/checkpoints/AmiriGS5Layer_0.768_238947_821900.checkpoint, unpacking...
+lstmtraining \
+          --stop_training \
+          --continue_from data/AmiriGS5/checkpoints/AmiriGS5Layer_0.802_236654_811400.checkpoint \
+          --traineddata data/AmiriGS5/AmiriGS5.traineddata \
+          --convert_to_int \
+          --model_output data/AmiriGS5/tessdata_fast/AmiriGS5Layer_0.802_236654_811400.traineddata
+Loaded file data/AmiriGS5/checkpoints/AmiriGS5Layer_0.802_236654_811400.checkpoint, unpacking...
+
+*****************************************************************************************
+
+
+----------------------------------------------------------------------------- book_Yacqubi.Tarikh-7_final_a-AmiriGS5Layer_0.721_245057_848200
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30190   Characters
+    2631   Errors
+   91.29%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.29%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     205      950     1476     2631   Unmarked
+     205      950     1476     2631   Total
+
+   Count   Missed   %Right
+    6171       87    98.59   ASCII Spacing Characters
+     264       18    93.18   ASCII Special Symbols
+   23752     1047    95.59   Basic Arabic
+       3        3     0.00   Arabic Extended
+   30190     1155    96.17   Total
+
+  Errors   Marked   Correct-Generated
+     417        0   {}-{<\n>}
+
+----------------------------------------------------------------------------- book_Yacqubi.Tarikh-7_final_a_200-AmiriGS5Layer_0.721_245057_848200
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30190   Characters
+    2631   Errors
+   91.29%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.29%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     205      950     1476     2631   Unmarked
+     205      950     1476     2631   Total
+
+   Count   Missed   %Right
+    6171       87    98.59   ASCII Spacing Characters
+     264       18    93.18   ASCII Special Symbols
+   23752     1047    95.59   Basic Arabic
+       3        3     0.00   Arabic Extended
+   30190     1155    96.17   Total
+
+  Errors   Marked   Correct-Generated
+     417        0   {}-{<\n>}
+
+----------------------------------------------------------------------------- book_Jahiz.Hayawan-7_final_a-AmiriGS5Layer_0.721_245057_848200
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26368   Characters
+    2998   Errors
+   88.63%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   88.63%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     215     1497     1286     2998   Unmarked
+     215     1497     1286     2998   Total
+
+   Count   Missed   %Right
+    5094       95    98.14   ASCII Spacing Characters
+     488      243    50.20   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668     1337    93.53   Basic Arabic
+     101       20    80.20   Arabic Extended
+   26368     1712    93.51   Total
+
+  Errors   Marked   Correct-Generated
+
+----------------------------------------------------------------------------- book_Jahiz.Hayawan-7_final_a_200-AmiriGS5Layer_0.721_245057_848200
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26368   Characters
+    2998   Errors
+   88.63%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   88.63%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     215     1497     1286     2998   Unmarked
+     215     1497     1286     2998   Total
+
+   Count   Missed   %Right
+    5094       95    98.14   ASCII Spacing Characters
+     488      243    50.20   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668     1337    93.53   Basic Arabic
+     101       20    80.20   Arabic Extended
+   26368     1712    93.51   Total
+
+  Errors   Marked   Correct-Generated
+
+*****************************************************************************************
+
+
+----------------------------------------------------------------------------- book_Yacqubi.Tarikh-7_final_a-AmiriGS5Layer_0.768_238947_821900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30190   Characters
+    2492   Errors
+   91.75%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.75%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     211      897     1384     2492   Unmarked
+     211      897     1384     2492   Total
+
+   Count   Missed   %Right
+    6171       86    98.61   ASCII Spacing Characters
+     264       19    92.80   ASCII Special Symbols
+   23752     1001    95.79   Basic Arabic
+       3        2    33.33   Arabic Extended
+   30190     1108    96.33   Total
+
+  Errors   Marked   Correct-Generated
+     423        0   {}-{<\n>}
+
+----------------------------------------------------------------------------- book_Yacqubi.Tarikh-7_final_a_200-AmiriGS5Layer_0.768_238947_821900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30190   Characters
+    2492   Errors
+   91.75%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.75%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     211      897     1384     2492   Unmarked
+     211      897     1384     2492   Total
+
+   Count   Missed   %Right
+    6171       86    98.61   ASCII Spacing Characters
+     264       19    92.80   ASCII Special Symbols
+   23752     1001    95.79   Basic Arabic
+       3        2    33.33   Arabic Extended
+   30190     1108    96.33   Total
+
+  Errors   Marked   Correct-Generated
+     423        0   {}-{<\n>}
+
+----------------------------------------------------------------------------- book_Jahiz.Hayawan-7_final_a-AmiriGS5Layer_0.768_238947_821900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26368   Characters
+    2746   Errors
+   89.59%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.59%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     237     1460     1049     2746   Unmarked
+     237     1460     1049     2746   Total
+
+   Count   Missed   %Right
+    5094      100    98.04   ASCII Spacing Characters
+     488      238    51.23   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668     1321    93.61   Basic Arabic
+     101       21    79.21   Arabic Extended
+   26368     1697    93.56   Total
+
+  Errors   Marked   Correct-Generated
+
+----------------------------------------------------------------------------- book_Jahiz.Hayawan-7_final_a_200-AmiriGS5Layer_0.768_238947_821900
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26368   Characters
+    2746   Errors
+   89.59%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.59%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     237     1460     1049     2746   Unmarked
+     237     1460     1049     2746   Total
+
+   Count   Missed   %Right
+    5094      100    98.04   ASCII Spacing Characters
+     488      238    51.23   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668     1321    93.61   Basic Arabic
+     101       21    79.21   Arabic Extended
+   26368     1697    93.56   Total
+
+  Errors   Marked   Correct-Generated
+
+*****************************************************************************************
+
+
+----------------------------------------------------------------------------- book_Yacqubi.Tarikh-7_final_a-AmiriGS5Layer_0.802_236654_811400
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30190   Characters
+    2498   Errors
+   91.73%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.73%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     236      902     1360     2498   Unmarked
+     236      902     1360     2498   Total
+
+   Count   Missed   %Right
+    6171       97    98.43   ASCII Spacing Characters
+     264       23    91.29   ASCII Special Symbols
+   23752     1015    95.73   Basic Arabic
+       3        3     0.00   Arabic Extended
+   30190     1138    96.23   Total
+
+  Errors   Marked   Correct-Generated
+     415        0   {}-{<\n>}
+
+----------------------------------------------------------------------------- book_Yacqubi.Tarikh-7_final_a_200-AmiriGS5Layer_0.802_236654_811400
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   30190   Characters
+    2498   Errors
+   91.73%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   91.73%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     236      902     1360     2498   Unmarked
+     236      902     1360     2498   Total
+
+   Count   Missed   %Right
+    6171       97    98.43   ASCII Spacing Characters
+     264       23    91.29   ASCII Special Symbols
+   23752     1015    95.73   Basic Arabic
+       3        3     0.00   Arabic Extended
+   30190     1138    96.23   Total
+
+  Errors   Marked   Correct-Generated
+     415        0   {}-{<\n>}
+
+----------------------------------------------------------------------------- book_Jahiz.Hayawan-7_final_a-AmiriGS5Layer_0.802_236654_811400
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26368   Characters
+    2807   Errors
+   89.35%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.35%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     222     1466     1119     2807   Unmarked
+     222     1466     1119     2807   Total
+
+   Count   Missed   %Right
+    5094      111    97.82   ASCII Spacing Characters
+     488      248    49.18   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668     1291    93.75   Basic Arabic
+     101       21    79.21   Arabic Extended
+   26368     1688    93.60   Total
+
+  Errors   Marked   Correct-Generated
+
+----------------------------------------------------------------------------- book_Jahiz.Hayawan-7_final_a_200-AmiriGS5Layer_0.802_236654_811400
+UNLV-ISRI OCR Accuracy Report Version 5.1
+-----------------------------------------
+   26368   Characters
+    2807   Errors
+   89.35%  Accuracy
+
+       0   Reject Characters
+       0   Suspect Markers
+       0   False Marks
+    0.00%  Characters Marked
+   89.35%  Accuracy After Correction
+
+     Ins    Subst      Del   Errors
+       0        0        0        0   Marked
+     222     1466     1119     2807   Unmarked
+     222     1466     1119     2807   Total
+
+   Count   Missed   %Right
+    5094      111    97.82   ASCII Spacing Characters
+     488      248    49.18   ASCII Special Symbols
+      17       17     0.00   Latin1 Special Symbols
+   20668     1291    93.75   Basic Arabic
+     101       21    79.21   Arabic Extended
+   26368     1688    93.60   Total
+
+  Errors   Marked   Correct-Generated
+rm: cannot remove 'tmpcheckpoints': No such file or directory
