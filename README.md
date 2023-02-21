@@ -10,9 +10,9 @@ Certain file locations and scripts have been modified compared to source repos.
 
 Wordstr format .box and .lstmf files were created using bash scripts outside of `tesstrain` makefile process.
 
-* [AmiriGS5.unicharset](https://github.com/Shreeshrii/tesstrain-arabic-GS/blob/master/data/AmiriGS5/AmiriGS5.unicharset) (122 characters)
-* [AmiriGS5Layer_fast.traineddata](https://github.com/Shreeshrii/tesstrain-arabic-GS/blob/master/data/AmiriGS5Layer_fast.traineddata)
-* [AmiriGS5Minus_fast.traineddata](https://github.com/Shreeshrii/tesstrain-arabic-GS/blob/master/data/AmiriGS5Minus_fast.traineddata)
+* [AmiriGS5.unicharset](https://github.com/baajur/tesstrain-arabic-GS/blob/master/data/AmiriGS5/AmiriGS5.unicharset) (122 characters)
+* [AmiriGS5Layer_fast.traineddata](https://github.com/baajur/tesstrain-arabic-GS/blob/master/data/AmiriGS5Layer_fast.traineddata)
+* [AmiriGS5Minus_fast.traineddata](https://github.com/baajur/tesstrain-arabic-GS/blob/master/data/AmiriGS5Minus_fast.traineddata)
 
 ### Input Files used for Tesseract finetune training from tessdata_best/script/Arabic.traineddata
 
@@ -35,8 +35,8 @@ with images at 300 and 200 dpi generated using `text2image`.
 
 Evaluation was done on 2 scanned books in addition to the 5 used for training.
 
-* [Evaluation reports summary](https://github.com/Shreeshrii/tesstrain-arabic-GS/tree/master/reports)
-* [Detailed evaluation reports per book](https://github.com/Shreeshrii/tesstrain-arabic-GS/tree/master/OCR_GS_Data/ara)
+* [Evaluation reports summary](https://github.com/baajur/tesstrain-arabic-GS/tree/master/reports)
+* [Detailed evaluation reports per book](https://github.com/baajur/tesstrain-arabic-GS/tree/master/OCR_GS_Data/ara)
 
 
 ## OpenArabic/Kraken
